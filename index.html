@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yerevan Book Store</title>
+    <!--FavIcon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Bootstrap  theme-->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Eagle+Lake" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Eagle+Lake" rel="stylesheet">
+    <!--Main-->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+<!--Container-->
+<div class="container">
+
+<!--Navigation-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#home"><img src="images/icon2.png"   class="logo" alt="Yerevan Book"></a>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#book">Books</a>
+        <a href="#contact">Contact</a>
+
+        <div class="navigation-icons">
+            <ul>
+                <li>
+                    <a href="tel:+37455956716" class="menu-icons">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="mailto:webdeveloper.diana@gmail.com" class="menu-icons">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/diana-manukyan-33b288166/"  class="menu-icons" target="_blank">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+        <i class="fa fa-bars open" onclick="openNav()" aria-hidden="true"></i>
+
+<!--End Navigation-->
+
+
+<!--Header-->
+<header id="home">
+        <div class="text-center header-center">
+            <h1>Yerevan Book Store</h1>
+        </div>
+</header>
+<!--End Header-->
+
+<!--Services-->
+<section id="services">
+    <!--Sercices Heading-->
+    <div class="text-center services-headings">
+        <h2>Services</h2>
+    </div>
+    <!-- End Services Headings-->
+
+    <!--icons-->
+        <div class="row text-center services-parts">
+
+            <!--Support-->
+            <div class="col-xs-12 col-sm-3">
+                <span class="glyphicon glyphicon-headphones servise-hover" aria-hidden="true"></span>
+                <h3>Support</h3>
+                <p>We are always ready to answer your questions!</p>
+            </div>
+            <!--End Support-->
+
+            <!--Order-->
+            <div class="col-xs-12 col-sm-3">
+                <span class="glyphicon glyphicon-ok servise-hover" aria-hidden="true"></span>
+                <h3>Order</h3>
+                <p>Order your book online and in place</p>
+            </div>
+            <!--End Order-->
+
+            <!--Online Sale-->
+            <div class="col-xs-12 col-sm-3">
+                <span class="glyphicon glyphicon-phone servise-hover" aria-hidden="true"></span>
+                <h3>Online Sale</h3>
+                <p>Buy your book where you want it</p>
+            </div>
+            <!--End Online Sale-->
+
+            <!--Shipping-->
+            <div class="col-xs-12 col-sm-3">
+                <span class="glyphicon glyphicon-shopping-cart servise-hover" aria-hidden="true"></span>
+                <h3>Shipping</h3>
+                <p>Delivery all over the world</p>
+            </div>
+            <!--End Shipping-->
+
+        </div>
+    <!--End icons-->
+
+</section>
+<!--End Services-->
+
+
+<!--Book-->
+<section id="book">
+    <div class=" text-center">
+        <h2>Best Seller Books</h2>
+        <!--Books-->
+        <div class="row img-gr">
+
+        <!--Book 1-->
+        <span class="col-lg-6 ">
+            <!--Image Box-->
+            <div class="imgBox" data-toggle="modal" data-target="#myModal">
+                <img src="images/book1.jpg"  class="img-responsive img-fluid " alt="picture">
+                <!--Text Box-->
+                <div class="textBox">
+                    <h2>"The other side of the country"
+                        Nikol Pashinyan</h2>
+                    <h3 class="price">
+                        4990 AMD
+                    </h3>
+                </div>
+                <!--End Text Box-->
+            </div>
+            <!--End Image Box-->
+        </span>
+
+           <!--Book 1 Modal--->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">"The other side of the country"</h4>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-bordered  table-hover">
+                              <tbody>
+                              <tr>
+                                  <td>Author</td>
+                                  <td>Nikol Pashinyan</td>
+
+                              </tr>
+                                <tr>
+                                    <td>Publisher</td>
+                                    <td>Antares</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Language</td>
+                                    <td>Armenian</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages</td>
+                                    <td>360</td>
+                                </tr>
+                                <tr>
+                                    <td>Publication date</td>
+                                    <td>2018</td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+                            <h5> <strong>Price</strong> 4990AMD </h5>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Book 1 Modal-->
+
+
+        <!--End Book 1-->
+
+        <!--Book 2-->
+        <span class="col-lg-6 ">
+        <!--Image Box-->
+            <div class="imgBox" data-toggle="modal" data-target="#myModal2">
+                <img src="images/book2.jpg"  class="img-responsive img-fluid " alt="picture">
+                <!--Text Box-->
+                <div class="textBox">
+                    <h2>"The Gambler"
+                        William C. Rempel
+                    </h2>
+                    <h3 class="price">
+                        7700 AMD
+                    </h3>
+                </div>
+                <!--End Text Box-->
+            </div>
+            <!--End Image Box-->
+        </span>
+
+        <!--Book 2 Modal--->
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel1">"The Gambler"</h4>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-bordered  table-hover">
+                                <tbody>
+                                <tr>
+                                    <td>Author</td>
+                                    <td>William C. Rempel</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Publisher</td>
+                                    <td>Edit Print</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Language</td>
+                                    <td>Armenian</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages</td>
+                                    <td>440</td>
+                                </tr>
+                                <tr>
+                                    <td>Publication date</td>
+                                    <td>2018</td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+                            <h5> <strong>Price</strong> 7700 AMD </h5>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Book 2 Modal-->
+
+
+        <!--End Book 2-->
+
+        <!--Book 3-->
+        <span class="col-lg-6 ">
+                <!--Image Box-->
+                <div class="imgBox" data-toggle="modal" data-target="#myModal3">
+                    <img src="images/book3.jpg"  class="img-responsive img-fluid " alt="picture">
+                    <!--Text Box-->
+                    <div class="textBox">
+                        <h2>"The Subtle Art of Not Giving a F*ck"
+                              Mark Manson
+                        </h2>
+                        <h3 class="price">
+                            4800 AMD
+                        </h3>
+                    </div>
+                    <!--End Text Box-->
+                </div>
+                <!--End Image Box-->
+        </span>
+
+            <!--Book 3 Modal--->
+            <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel3">
+                                "The Subtle Art of Not Giving a F*ck"
+                            </h4>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-bordered  table-hover">
+                                <tbody>
+                                <tr>
+                                    <td>Author</td>
+                                    <td>Mark Manson</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Publisher</td>
+                                    <td>Newmag</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Language</td>
+                                    <td>Armenian</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages</td>
+                                    <td>256</td>
+                                </tr>
+                                <tr>
+                                    <td>Publication date</td>
+                                    <td>2018</td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+                            <h5> <strong>Price</strong> 4800 AMD </h5>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Book 3 Modal-->
+
+            <!--End Book 3-->
+
+            <!--Book 4-->
+            <span class="col-lg-6 ">
+                <!--Image Box-->
+                <div class="imgBox"  data-toggle="modal" data-target="#myModal4">
+                <img src="images/book4.jpg"  class="img-responsive img-fluid " alt="picture">
+                <!--Text Box-->
+                <div class="textBox">
+                    <h2>"100 Business Secrets"
+                          Dilbaryan V.
+                    </h2>
+                    <h3 class="price">
+                        8900 AMD
+                    </h3>
+                </div>
+                <!--End Text Box-->
+                 </div>
+                <!--End Image Box-->
+            </span>
+
+
+            <!--Book 4 Modal--->
+            <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel4">
+                                "100 Business Secrets"
+                            </h4>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-bordered  table-hover">
+                                <tbody>
+                                <tr>
+                                    <td>Author</td>
+                                    <td>Dilbaryan V.</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Publisher</td>
+                                    <td>Newmag</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Language</td>
+                                    <td>Armenian</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages</td>
+                                    <td>556</td>
+                                </tr>
+                                <tr>
+                                    <td>Publication date</td>
+                                    <td>2018</td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+                            <h5> <strong>Price</strong> 8900 AMD </h5>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             </div>
+            <!--End Book 4 Modal-->
+
+            <!--End Book 4-->
+
+    </div>
+    <!--End Books-->
+</section>
+<!--End Book-->
+
+<!--Contact-->
+<section id="contact" class="text-center">
+        <!--Contact Heading-->
+        <h2 class="text-center">Contact Us</h2>
+        <!--End Contact Heading-->
+
+        <!--Contact Form-->
+        <form role="form" class="form-horizontal" name="myForm" id="myForm" onsubmit="return(validation())">
+            <!--Name-->
+            <div class="form-group">
+                <label for="firstname">Name</label>
+                <input type="text" id="firstname" name="firstname" class="form-control" placeholder="Your name"
+                required>
+                <span id="error_name" class="text-danger"></span>
+            </div>
+            <!--End Name-->
+
+            <!--Email-->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-control"  placeholder="Your Email"
+                required>
+                <span id="error_email" class="text-danger"></span>
+            </div>
+            <!--End Email-->
+
+            <!--Message-->
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" class="form-control" row="10"
+                          placeholder="Write your message here..." required></textarea>
+                <span id="error_message" class="text-danger"></span>
+            </div>
+            <!--End Message-->
+
+            <!--Submit-->
+            <div class="form-group">
+                <button type="submit" id="submit" class="btn btn-success my-form-btn">
+                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    Send Message
+                </button>
+            </div>
+            <!--End Submit-->
+        </form>
+        <!--End Contact Form-->
+
+</section>
+<!--End Contact-->
+
+<!--Contact info-->
+    <section id="contactInfo">
+        <!--icons-->
+        <div class="row text-center services-parts">
+
+            <!--Web Developer-->
+            <div class="col-xs-12 col-sm-3">
+                <span class="glyphicon glyphicon-user servise-hover" aria-hidden="true"></span>
+                <h4>Web Developer</h4>
+                <h4>
+                    <a href="https://www.linkedin.com/in/diana-manukyan-33b288166/" target="_blank">Diana Manukyan</a>
+                </h4>
+            </div>
+            <!--End Web Developer-->
+
+            <!--Email-->
+            <div class="col-xs-12 col-sm-3">
+                <span class="glyphicon glyphicon-envelope servise-hover" aria-hidden="true"></span>
+                <h4>Email</h4>
+                <h4>
+                    <a href="mailto:webdeveloper@gmail.com">webdeveloper.diana@gmail.com</a>
+                </h4>
+            </div>
+            <!--End Email-->
+
+            <!--Tel-->
+            <div class="col-xs-12 col-sm-3">
+                <span class="glyphicon glyphicon-phone servise-hover" aria-hidden="true"></span>
+                <h4>Telephone Number</h4>
+                <h4>
+                    <a href="tel:+37455956716">+374 (55) 956-716</a>
+                </h4>
+            </div>
+            <!--End Tel-->
+
+            <!--Location-->
+            <div class="col-xs-12 col-sm-3">
+                <span class="glyphicon glyphicon-map-marker servise-hover" aria-hidden="true"></span>
+                <h4>Location</h4>
+                <h4>
+                    <a href="https://www.google.ru/maps/place/%D4%B5%D6%80%D6%87%D5%A1%D5%B6/@40.1813124,44.479804,13z/data=!4m5!3m4!1s0x406aa2dab8fc8b5b:0x3d1479ae87da526a!8m2!3d40.1791857!4d44.4991029"
+                       target="_blank">
+                        Yerevan,Armenia
+                    </a>
+                </h4>
+            </div>
+            <!--End Location-->
+        </div>
+        <!--End icons-->
+    </section>
+<!--End Contact info-->
+
+
+
+<!--Map-->
+<section id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195168.327635253!2d44.348483028336275!3d40.153305998477684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406aa2dab8fc8b5b%3A0x3d1479ae87da526a!2z1LXWgNaH1aHVtg!5e0!3m2!1shy!2s!4v1534451511021"
+            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
+<!--End Map-->
+
+<!--Footer-->
+<footer id="footer">
+    <!--Footer Content-->
+    <div>
+            <!--Tel-->
+            <a href="tel:+37455956716">
+                <i class="fa fa-phone footer-icon" aria-hidden="true"></i>
+            </a>
+            <!--End Tel-->
+
+            <!--Email-->
+            <a href="mailto:webdeveloper.diana@gmail.com">
+                <i class="fa fa-envelope footer-icon" aria-hidden="true"></i>
+            </a>
+            <!--End Email-->
+
+            <!--LinkedIn-->
+            <a href="https://www.linkedin.com/in/diana-manukyan-33b288166/" target="_blank">
+                <i class="fa fa-linkedin footer-icon" aria-hidden="true"></i>
+            </a>
+            <!--End LinkedIn-->
+
+        <!--Copy Right-->
+        <p class="footer-p">
+            ©<a href="https://www.linkedin.com/in/diana-manukyan-33b288166/"  class="footer-name"  target="_blank">
+            Diana M</a> <i class="fa fa-heart" aria-hidden="true"></i> 2018
+        </p>
+        <!--End Copy Right-->
+
+    </div>
+    <!--Footer Content-->
+
+</footer>
+<!--End Footer-->
+
+</div>
+<!--End Container-->
+
+<!--Scroll Top-->
+<button type="button" id="top"  class="scroll-top">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+</button>
+<!--End Scroll Top-->
+
+
+
+
+<!--jQuery library-->
+<script src="js/jquery-lib.js"></script>
+<!--Bootstrap JavaScript-->
+<script src="js/bootstrap.min.js"></script>
+<!--My JQuery File-->
+<script src="js/script.js"></script>
+<!--My JavaScript File-->
+<script src="js/jsScript.js"></script>
+
+</body>
+</html>
